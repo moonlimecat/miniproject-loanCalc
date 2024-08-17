@@ -6,8 +6,6 @@ const submitBtn = document.getElementById("submitBtn");
 const resetBtn = document.getElementById("resetBtn");
 const inputs = document.querySelectorAll("input");
 
-function clear() {}
-
 submitBtn.addEventListener("click", function () {
   p = document.getElementById("inputLoan").value;
   p = Number(p);
